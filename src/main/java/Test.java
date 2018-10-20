@@ -1,7 +1,3 @@
-package com.reproducer.java.a;
-
-import com.reproducer.module.util.MyClass;
-
 public class Test {
   public void myClass(final Properties props) {
     final MyClass myClass = MyClass.apply(props.a, props.b, props.c, props.d);
